@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Exercice pratique</h1>
+       
+    <p id="demo">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores aliquam atque, eum perferendis rem non eveniet, cum saepe laborum aliquid, praesentium consectetur quibusdam officiis dicta similique officia odit nesciunt omnis?
+    </p>
+    <button onclick="changeTexte()">Change texte</button>
+    <button onclick="changeColor()">Change color</button>
+    <button onclick="showAlert()">Afficher l'alert</button>
+
+    <script>
+        function changeTexte(){
+            document.getElementById("demo").innerHTML = "Hello Queen"
+        }
+
+        function changeColor(){
+            document.getElementById("demo").style.color = "red"
+        }
+
+        function showAlert(){
+            alert ("Hello Queen")
+        }
+    </script>
+</body>
+</html>
